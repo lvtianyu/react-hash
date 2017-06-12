@@ -1,0 +1,53 @@
+@import "../../../styles/core.scss";
+@import "../../../styles/publicStyle.scss";
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.ApprenticeTask{width:100%;min-height:100vh;padding-top:1.74rem;position: relative}
+/*********** 固定内容 **********/
+.ApprenticeTask .task-banner{width:100%;padding:0.4rem 0 0.4rem 0.9rem; background-color: #ef4949;color:#fff;line-height:0.4rem;position: fixed;top:0}
+.ApprenticeTask .task-banner p:first-child{font-size:0.36rem;height:0.54rem;padding-bottom:0.14rem}
+.ApprenticeTask .task-banner p:last-child{font-size:0.3rem;height:0.4rem;}
+/*********** 中间内容部分 **********/
+.ApprenticeTask .grand-total{font-size:0.3rem;height:0.8rem;line-height:0.8rem;background-color: #f2f2f2;text-align:center;color:#666666}
+.ApprenticeTask .grand-total span{color: #ef4949;}
+.ApprenticeTask .grand-total i{display:inline-block;height:0;width:0;font-style:normal;border-top: 0.08rem solid transparent;border-left: 0.12rem solid #666; border-bottom: 0.08rem solid transparent;vertical-align: middle}
+.ApprenticeTask .detail{padding:0.5rem 0.2rem 0;text-align:center}
+.ApprenticeTask .detail h2{font-size:0.36rem}
+.ApprenticeTask .detail span{color:#ef4949;line-height:0.58rem;font-weight:bolder}
+.ApprenticeTask .detail h3{color:#efa749;font-size:0.22rem;border:1px solid #efa749;line-height:0.28rem;height:0.3rem;width: 4.8rem;margin: 0.32rem auto 0.4rem}
+.ApprenticeTask .detail p img{width:1.95rem;margin-bottom:0.34rem}
+.ApprenticeTask .detail-task{font-size:0.3rem;}
+/*********** 分享内容 **********/
+.ApprenticeTask .share{padding-bottom:2rem}
+.ApprenticeTask .share h2{line-height:0.8rem;color:#999;padding-left:0.2rem;border-bottom:1px solid #e3e3e3;padding-top:0.5rem}
+.ApprenticeTask .share li{border-bottom:1px solid #e3e3e3;padding:0.2rem 0.24rem;overflow:hidden }
+.ApprenticeTask .share li img{width:1rem;height: 1rem}
+.ApprenticeTask .share li>div{float:left}
+.ApprenticeTask .share li>div.left-box{padding-right:0.24rem}
+.ApprenticeTask .share li>div h3{margin:0;height:0.56rem;line-height:0.56rem;font-size:0.36rem}
+.ApprenticeTask .share li>div p{margin:0;height:0.44rem;line-height:0.44rem;font-size:0.24rem;color:#999999}
+/*********** 遮罩层 **********/
+.ApprenticeTask .mark{position: fixed;width:100vw;height:100vh;background-color: rgba(0,0,0,0.5);top:0;left:0;display:none}
+.ApprenticeTask .mark>div{border-radius:0.08rem;display:none;text-align:center;width:6.7rem;position: absolute;left:50%;top:50%;margin-left:-3.35rem }
+.ApprenticeTask .mark .downapp{height:6.15rem;padding-top:0.84rem;margin-top:-3.07rem;background-color: #fff;}
+.ApprenticeTask .mark .close{width:0.7rem;height:0.7rem;line-height:0.7rem;font-size:0.6rem;position: absolute;right:0;top:0;text-align:center;color:#999999}
+.ApprenticeTask .mark .downapp img{width:2.08rem;}
+.ApprenticeTask .mark .downapp p{font-size:0.36rem;line-height:0.8rem;}
+.ApprenticeTask .mark .downapp .poenbtn{display:block;width:6rem;height:1.08rem;line-height:1.08rem;color:#fff;font-size:0.36rem;background-color: #ed514f;margin:0.5rem auto 0}
+.ApprenticeTask .mark .downapp .label{font-size:0.24rem;color:#bbbbbb}
+.ApprenticeTask .mark .downapp .label a{color:#ed514f;text-decoration: underline;}
+.ApprenticeTask .mark .income{background:url('../../../static/mark_bg.png') no-repeat;background-size:contain;height:7.8rem;margin-top:-3.9rem;padding-top:0.6rem;color:#fff}
+.ApprenticeTask .mark .income .close{color:#f59191}
+.ApprenticeTask .mark .income .h2{font-size:0.36rem;}
+.ApprenticeTask .mark .income .total-money{font-size:0.82rem;line-height:1rem;height:1rem}
+.ApprenticeTask .mark .income .person-num{font-size:0.36rem;width:2.22rem;line-height:0.5rem;border-radius:1rem;margin:0 auto;background-color:#d85252}
+.ApprenticeTask .mark .income .eqrcode,
+.ApprenticeTask .mark .score-mark .eqrcode{width:3.1rem;padding:0.2rem;height:3.1rem;background-color: #fff;margin:0.3rem auto;border-radius:0.08rem}
+.ApprenticeTask .mark .income p,
+.ApprenticeTask .mark .score-mark p{line-height:0.48rem;font-size:0.3rem}
+.ApprenticeTask .mark .income .eqrcode img,
+.ApprenticeTask .mark .score-mark img{width:100%;}
+.ApprenticeTask .mark .score-mark{height:5.4rem;background-color: #fff;margin-top:-2.8rem;padding-top: 0.2rem;}
+.ApprenticeTask .mark .score-mark span{color:#ef4949}
+.ApprenticeTask .mark .link-mark{width:7.1rem;background-color: #e3e3e3;height:4.1rem;margin-top:-2.05rem;margin-left:-3.55rem;padding:1.1rem 0 0.6rem}
+.ApprenticeTask .mark .link-mark input{width:6.6rem;height:0.92rem;line-height:0.92rem;border:1px solid #bbbbbb;padding-left:0.2rem;font-size:0.3rem;color:#999999}
+.ApprenticeTask .mark .link-mark button{background-color: #ef4949;color:#fff;width:6.6rem;height:1rem;font-size:0.3rem;margin-top:0.28rem}

@@ -1,0 +1,247 @@
+@import "../../../styles/core.scss";
+@import "../../../styles/publicStyle.scss";
+@import "../../../styles/modal.scss";
+
+
+body{
+    background-color: #fff
+}
+// ------------------
+
+.credit-card{
+    width: 100%
+}
+
+.credit-card>.head{
+    width:100%;
+    height: 1.75rem;
+    background-color: #ef4949;
+    padding: .4rem 0;
+    text-align: center
+}
+
+.head>li{
+    display: inline-block;
+    width: 80%;
+    color: #fff;
+    font-size: .26rem;
+    text-align: left;
+    margin-bottom: .2rem
+}
+.head>li:first-child{
+    font-size: .32rem;
+    
+}
+
+.head>li span{
+    display: inline-block;
+    font-size: .45rem
+}
+
+// ---------------------
+
+
+// ---------------------------
+
+.list-card{
+    width: 100%;
+   text-align: center
+}
+
+.list-card>p{
+    display: inline-block;
+    font-size: .2rem;
+    color:#efa749;
+    border:1px solid #efa749;
+    border-radius: 3px;
+    height: .4rem;
+    line-height: .4rem;
+    margin: .4rem 0;
+    padding:0 .2rem
+}
+
+.list-card>img{
+    width: 3.25rem;
+    height: 2rem;
+    border-radius: 3px;
+    margin-top: .3rem
+}
+.list-card>h4{
+    width: 100%;
+    font-size: .4rem;
+    font-weight: normal;
+    color: #333
+}
+
+.list-card>ul{
+    width: 100%;
+    margin-bottom: .9rem;
+}
+
+.list-card>ul>li>p{
+    padding: 0 .25rem;
+    background-color: #f2f2f2;
+    font-size: .3rem;
+    height: .5rem;
+    border-radius: .5rem;
+    line-height: .5rem;
+    color: #999;
+    display: inline-block;
+    margin-bottom: .15rem;
+}
+.list-card>div{
+    color: #333;
+    font-size: .28rem;
+}
+.list-card>a{
+    display: inline-block;
+    padding: .3rem .5rem;
+    background-color: #4991e5;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: .4rem;
+    letter-spacing: 1px
+}
+
+
+// ---------------------
+
+.public{
+    margin-top: .6rem;
+    padding: 0 .75rem;
+}
+
+.public>div,.public>p,button{
+    width:100%;
+    height: .9rem;
+    border-radius: .45rem
+}
+.public>div{
+    border:1px solid rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding-left: .3rem
+}
+
+.public>div>img{
+    width:.25rem;
+    height: .35rem;
+    vertical-align: middle;
+    margin-right: .2rem
+}
+.public>div>input{
+    height: 100%;
+    width: 60%;
+    font-size: .3rem
+}
+.public>div>s{
+    display: inline-block;
+    height: .7rem;
+    line-height: .7rem;
+    width: 35%;
+    background-color: #e3e3e3;
+    border-radius: .35rem;
+    letter-spacing: 1px;
+    margin-right: .1rem;
+    text-decoration: none;
+    font-size: .3rem;
+    color: #fff
+}
+.public>div>s.active{
+    background-color: #e5372e;
+}
+.public>div>s.succeed{
+    background-color: green;
+}
+.public>.verification-code{
+    justify-content: space-between
+}
+.public>p{
+    line-height: .1rem;
+    color: #e5372e;
+    font-size: .24rem
+}
+button{
+    color: #fff;
+    font-size: .36rem;
+    letter-spacing: 2px
+}
+
+.register>div:nth-of-type(1),.register>div:nth-of-type(2){
+    margin-bottom: .4rem
+}
+.register>div:nth-of-type(3)>input{
+    
+    width: 80%
+}
+
+.public>.seting-password>b{
+    display: inline-block;
+    width:.4rem;
+    height: .4rem;
+    margin-right: 5%;
+    background-color: #e5372e
+}
+
+.register>ul{
+    width: 100%;
+    height: .9rem;
+    display: flex;
+    align-items: center;
+    
+}
+.register>ul>li{
+    display: inline-block;
+    margin-left: .1rem;
+    font-size: .24rem;
+    line-height: .24rem
+}
+
+// --------------------
+
+.modal>div>div{
+    width: 6.7rem;
+    height: 5.1rem;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1rem
+}
+
+
+.notice-layout{
+    width: 100%;
+    font-size: .35rem;
+    color: #666666
+}
+.notice-layout>img{
+    width: .5rem;
+    height: .5rem;
+    vertical-align: middle;
+    margin-right: .1rem;
+
+}
+
+.modal>div>div>p{
+    width: 100%;
+    padding:.7rem .45rem 1.2rem;
+    text-align: left;
+    line-height: .5rem;
+    font-size: .3rem
+}
+.modal>div>div>p>span{
+    color: #e5372e
+}
+.modal>div>div>a{
+    width: 100%;
+    background-color: #4991e5;
+    color: #fff;
+    
+    height: 1rem;
+    line-height: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}

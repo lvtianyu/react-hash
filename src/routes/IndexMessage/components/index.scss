@@ -1,0 +1,180 @@
+@import "../../../styles/core.scss";
+@import "../../../styles/publicStyle.scss";
+
+.indexMessage,.indexMessage>.head,.head>ul{
+    width: 100%;
+}
+
+body{
+    background-color: #f7f7f7
+}
+
+// ------------------------
+.head{
+    height: 3rem;
+    background-color: #ef4949;
+    font-size: .24rem;
+    color: #ffa5a5;
+    padding: .6rem ;
+    text-align: center
+}
+
+.head>ul{
+   height: 100%;
+}
+
+.head>ul>li{
+    width: 100%;
+    
+}
+.head>ul>li:nth-of-type(2){
+    font-size: .5rem;
+    margin: .3rem 0
+}
+.head>ul>li:nth-of-type(2),.head>ul>li b{
+    color: #fff
+}
+
+.head>ul>li i{
+    display: inline-block;
+    font-style: normal;
+    margin: 0 .1rem
+}
+.head>a{
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    width: 48px;
+    height: 40px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.2)
+}
+.head>a>img{
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #FFF;
+    background-color: #f2f2f2;
+
+}
+
+@mixin publicPadding{
+    padding:.4rem 0;
+    
+}
+
+// -------------------
+.listStyle{
+    width: 100%;
+   @include publicPadding;
+   @include borderBottom;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #fff
+}
+
+.listStyle>li{
+    width: 50%;
+    height: 100%;
+    
+}
+.listStyle>li div{
+    margin-right: .2rem
+}
+.listStyle>li div:first-child{
+    width:.9rem;
+    height: .9rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.listStyle>li span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:.9rem;
+    height: .9rem;
+    border-radius: 50%;
+}
+.listStyle>li span>img{
+    width: 50%;
+}
+.listStyle>li div:last-child{
+    width:51%;
+    font-size: .22rem
+}
+.listStyle>li:first-child{
+    @include borderRight
+}
+.listStyle a{
+    width: 100%;
+    height: 100%;
+    color: #999999;
+    font-size: .24rem;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.listStyle .title{
+    font-size: .3rem;
+    color: #333;
+    margin-bottom: .15rem;
+}
+
+//--------------------
+.shopingList{
+    width: 100%;
+    padding:0 .4rem;
+    margin-top: .2rem;
+    @include borderBottom;
+    @include borderTop;
+    background-color: #fff;
+    height: 1.2rem;
+
+
+}
+
+.shopingList>li{
+    line-height: 1.2rem;
+    display: inline-block;
+    width: 48%
+}
+
+.shopingList>li:last-child{
+    text-align: right;
+    color: #999999
+}
+
+.shopingList>li img{
+    width: .6rem;
+    height: .45rem;
+    vertical-align: middle;
+    
+}
+
+.try-game{
+    background-color: #ef4949
+}
+.card{
+    background-color: #6fc5c4
+}
+.come-on{
+    background-color: #54a6b0
+}
+.award{
+    background-color: #fba434
+}
+.prize{
+    background-color: #20b4e4
+}
+.shopping{
+    background-color: #ee8bf7
+}

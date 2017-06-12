@@ -1,0 +1,25 @@
+.clickActiveShow:active{
+background-color: rgba(0,0,0,0.1)
+
+}
+//点击按钮触发效果
+
+@mixin btn-gradient{
+     background-image: linear-gradient(to right, #2CCCCB, #45E8CD);
+    background-image: -webkit-linear-gradient(to right, #2CCCCB, #45E8CD);
+}
+
+.content>div{
+    width: 100%;
+}
+
+
+@mixin borderBottom{
+    border-bottom: 1px solid rgba(0,0,0,.1)
+}
+@mixin borderRight{
+    border-right: 1px solid rgba(0,0,0,.1)
+}
+@mixin borderTop{
+    border-top: 1px solid rgba(0,0,0,.1)
+}

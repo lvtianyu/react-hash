@@ -1,0 +1,118 @@
+@import "../../../styles/core.scss";
+@import "../../../styles/publicStyle.scss";
+@import "../../../styles/modal.scss";
+
+body{
+    background-color: #f2f2f2
+}
+
+// -------------------
+
+.contain{
+    padding-bottom: 1.04rem;
+        font-weight: 200;
+        height: 100%;
+}
+
+
+/*--------------------------------*/
+.body-list-money,.body-list-money>.list-money,.body-list-money>.list-money>li,.body-list-money>.list-money>li>a{
+    width: 100%;
+}
+
+.body-list-money>.list-money{
+    margin-bottom: .2rem;
+    
+    font-size: .3rem;
+}
+.body-list-money>ul>li{
+    background-color: #fff;
+    padding: 0 .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    
+}
+.body-list-money>.list-money>li{
+    height: 1.2rem;
+    color: #bbb;
+    font-size: .24rem;
+
+}
+.body-list-money>.list-money>li img{
+    display: inline-block;
+    height: .6rem;
+
+}
+.body-list-money>.list-money>li>ul{
+    width: 60%
+}
+.body-list-money>.list-money>li>ul>li{
+    margin-bottom: .1rem;
+    text-align: left
+}
+.body-list-money>.list-money>li>ul>li>b{
+    font-size: .3rem;
+    color: #333;
+    padding: 0 .1rem;
+}
+.body-list-money>.list-money>li span:last-child{
+    text-align: right
+}
+
+.body-list-money>.header-setting{
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body-list-money>.header-setting>li{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap:wrap
+}
+.body-list-money>.header-setting>li:last-child{
+    justify-content: flex-end
+}
+.body-list-money>.header-setting>li>span{
+    height: 40%;
+    line-height: .75rem
+}
+.body-list-money>.header-setting>li>span:last-child{
+    height: 60%;
+    font-size: .5rem;
+    color: #efa749
+}
+.body-list-money>.header-setting>li>a{
+    padding:0 .2rem;
+    height: .5rem;
+    line-height: .5rem;
+    border:1px solid #bbb;
+    border-radius: 2px;
+    text-align:center;
+    display: inline-block
+}
+.body-list-money>.header-setting>li>span{
+    display: inline-block;
+    width: 100%;
+
+}
+// ---------------
+
+.body-list-money>div{
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    padding: 0 .4rem;
+    text-align: left;
+}
+
+
+
+
+
+
+
+

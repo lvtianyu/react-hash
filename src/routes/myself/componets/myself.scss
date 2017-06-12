@@ -1,0 +1,140 @@
+@import "../../../styles/core.scss";
+@import "../../../styles/publicStyle.scss";
+@import "../../../styles/modal.scss";
+
+body{
+    background-color: #f2f2f2
+}
+
+// -------------------
+
+.contain{
+    padding-bottom: 1.04rem;
+        font-weight: 200;
+        height: 100%;
+}
+
+
+/*--------------------------------*/
+.body-list,.body-list>ul,.body-list>ul>li,.body-list>ul>li>a{
+    width: 100%;
+}
+.body-list>ul>li>a{
+    display: inline-block;
+        height: 1rem
+
+}
+.body-list>ul{
+    margin-bottom: .2rem;
+    color: #333;
+    font-size: .3rem;
+}
+.body-list>ul>li{
+    background-color: #fff;
+    padding: 0 .4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    
+}
+.body-list>ul>li:last-child{
+    margin-top: .15rem;
+}
+.body-list>ul>li b{
+    font-weight: 200
+}
+.body-list>ul>li span{
+    display: inline-block;
+    height: 1rem;
+    line-height: 1rem;
+
+}
+.body-list>ul>li .old>input{
+    width: 100%;
+    height: 90%;
+    text-align: right;
+    color: #bbb
+}
+.body-list>ul>li span:first-child{
+    width: 30%;
+    color: #333;
+    text-align: left
+}
+.body-list>ul>li span:last-child{
+    width: 70%;
+    color: #bbb;
+    font-size: .3rem;
+    text-align: right
+}
+.body-list>ul>li span.province-city{
+    font-size: .24rem
+}
+/*.body-list>ul>li span>img{
+    vertical-align: middle;
+    margin-right: .1rem;
+    width: .42rem;
+    height: .5rem;
+}*/
+.body-list>ul>.header-setting{
+    height: 1.5rem;
+}
+.body-list>ul>.header-setting span{
+    position: relative;
+
+}
+.body-list>ul>.header-setting span>img{
+    height: .9rem;
+    width: .9rem;
+    line-height: .9rem;
+    border-radius: 50%;
+    vertical-align: middle;
+
+}
+.body-list>ul span>.wx{
+    width: .4rem;
+    height: .4rem;
+    vertical-align: middle;
+    
+}
+
+.clip-file{
+   
+    position: absolute;
+    top:0;
+    right: 0;
+    height: .9rem;
+    width: .9rem;
+    z-index: 99;
+    opacity: 0
+}
+
+/*-------------------------*/
+.name-modal>div>div{
+    width: 80%;
+    height: 4rem;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: .2rem ;
+    margin-top: 1rem
+}
+.name-modal input{
+    font-size: .3rem
+}
+.name-modal input,.name-modal p{
+    width: 100%;
+    height: 1.2rem;
+    text-align: left;
+    line-height: 1.2rem;
+    padding: 0 .1rem
+}
+.name-modal p{
+    border-top: 1px solid rgba(234,145,0,.3);
+    color: #bbb
+}
+.name-modal .return>.active{
+    background-color: #fb3737;
+    font-size: .3rem;
+    color: #fff;
+    border-radius: 50%;
+}

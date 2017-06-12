@@ -1,0 +1,111 @@
+@import "../../../styles/core.scss";
+@import "../../../styles/publicStyle.scss";
+
+
+.contain{
+    color: #bbb;
+    text-align: center;
+}
+
+body{
+        background-color: #f5f5f5;
+
+}
+
+
+/*----------------*/
+
+
+
+
+.public>div,.public>p{
+    width:100%;
+    height: 1.1rem;
+    
+}
+button{
+    width: 90%;
+    height: .9rem;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: .5rem
+}
+.public>div{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding-left: .3rem;
+    background-color: #fff
+}
+.public>div:first-child{
+    border-bottom: 1px solid rgba(0,0,0,.1)
+}
+
+.public>div>img{
+    width:.25rem;
+    height: .35rem;
+    vertical-align: middle;
+    margin-right: .2rem
+}
+.public>div>input{
+    height: 100%;
+    width: 60%;
+    font-size: .2rem;
+    font-weight: 300;
+    opacity: 0.4
+}
+.public>div>input.active{
+    opacity: 1
+}
+.public>div>s{
+    display: inline-block;
+    width: 35%;
+    letter-spacing: 1px;
+    margin-right: .1rem;
+    text-decoration: none;
+    font-size: .2rem;
+    color: #484746;
+    text-align: center;
+    border-left: 1px solid rgba(0,0,0,.1)
+}
+.public>div>s.active{
+    opacity: 0.4
+}
+
+
+.public>.verification-code{
+    justify-content: space-between
+}
+
+button{
+    color: #fff;
+    font-size: .36rem;
+    letter-spacing: 2px;
+    font-weight: 200
+}
+button.active{
+    background-color: #e5372e
+}
+
+
+
+.register>ul{
+    width: 100%;
+    height: .9rem;
+    display: flex;
+    align-items: center;
+    
+}
+.register>ul>li{
+    display: inline-block;
+    margin-left: .1rem;
+    font-size: .24rem;
+    line-height: .24rem
+}
+
+input::input-placeholder,textarea::input-placeholder {
+    color:#484746;
+}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+    color:#484746;
+}

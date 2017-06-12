@@ -1,0 +1,13 @@
+@import "../../../styles/core.scss";
+@import "../../../styles/publicStyle.scss";
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+.code-box{background-color: #fc5f4e;color:#333;min-height:100vh;width: 100%;padding:0.44rem 0.77rem;}
+.code-box .code-content{background-color: #fff;text-align: center;padding:0.6rem 0.3rem}
+.code-box .head-portrait{width:1rem;height:1rem;border-radius: 50%;overflow:hidden;margin:0 auto;}
+.code-box .head-portrait img{width:100%;height:100%}
+.code-box .name{line-height:0.5rem;}
+.code-box h2{padding-top:0.1rem;padding-left:0.2rem;height:0.8rem;line-height:0.7rem;font-size:0.3rem;color:#8a8a8a}
+.code-box .link-box{width:90%;background-color: #eeeeee;line-height:0.7rem;height:0.7rem;margin:0.48rem auto 0;color:#999;font-size:0.3rem;border-radius:0.08rem}
+.code-box .code{width:3.2rem;height:3.2rem;margin:0 auto;padding:0.2rem}
+.code-box .code img{width:100%}
+.code-box .label {line-height:0.6rem;color:#c2c2c2}

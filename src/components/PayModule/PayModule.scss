@@ -1,0 +1,68 @@
+
+@import '../../styles/publicStyle.scss';
+@mixin line-and-center{
+            border-bottom: 1px solid #e6e6e6;
+                        display: inline-block;
+width:4.4rem;
+}
+.cover {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .5);
+    color:#333;
+    text-align: center;
+    .closeFn{
+        margin-top: .35rem;
+        margin-left: .29rem;
+    }
+    .panel {
+        margin-top: 50%;
+        width:5rem;
+        display: inline-block;
+        background-color: #fff;
+        border-radius: .2rem;
+        text-align: center;
+        .title_pay {
+            text-align: center;
+            height: .88rem;
+            line-height: .88rem;
+            border-bottom: 1px solid #e6e6e6
+        }
+        .p_content {
+            font-size: .56rem;
+            height: 1.63rem;
+            line-height: 1.63rem;
+             @include line-and-center
+
+        }
+        .btn {
+            width:4.4rem;
+            height: .7rem;
+            margin-top: .45rem;
+            color: #fff;
+
+            margin-bottom: .3rem;
+            border-radius: 5px;
+        }
+        .btn-gradient{
+            @include btn-gradient
+        }
+        .weixin {
+            height:.78rem;
+            line-height: .78rem;
+            vertical-align: middle;
+            text-align: left;
+            @include line-and-center
+
+        }
+        .weixin >span{
+            float: right;
+            color:#cbcbcb
+        }
+
+
+    }
+}

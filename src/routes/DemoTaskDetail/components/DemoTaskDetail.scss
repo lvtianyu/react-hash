@@ -1,0 +1,33 @@
+@import "../../../styles/core.scss";
+@import "../../../styles/publicStyle.scss";
+h1,h2,h3,h4,h5,h6,strong{font-weight: normal;}
+.DemoTaskDetail{background-color: #f7f7f7;color:#333;min-height:100vh;width: 100%;}
+.DemoTaskDetail>div{background-color: #fff;color:#999;text-align:center}
+.DemoTaskDetail .banner h2{color:#333;font-size:0.3rem;padding-top:0.36rem;padding-bottom:0.3rem}
+.DemoTaskDetail .banner p,.DemoTaskDetail .banner p a{color:#fc4242;font-size:0.24rem}
+.DemoTaskDetail .banner p  strong{font-size:0.6rem}
+.DemoTaskDetail .banner p.money{padding-bottom:0.28rem}
+.DemoTaskDetail .banner p.money{padding-bottom:0.28rem}
+.DemoTaskDetail .banner p a{line-height:0.36rem;height:0.36rem;border:1px solid #fc4242;padding:0 0.15rem;border-radius:0.08rem}
+.DemoTaskDetail .banner p a:first-child{margin-right:0.18rem}
+.DemoTaskDetail .banner div{padding:0.4rem 0 0.46rem}
+.DemoTaskDetail .step{margin-top:0.24rem;background-color: transparent;padding:0 0.2rem;text-align:left;color:#666;position: relative}
+.DemoTaskDetail .step .step-num{width:11.3%;padding-top:0.12rem;}
+.DemoTaskDetail .step .step-num span{display:inline-block;width:0.48rem;height:0.48rem;line-height:0.48rem;border-radius:50%;background-color: #bbbbbb;text-align:center;color:#f1dddd}
+.DemoTaskDetail .step.active .step-num span{background-color: #fc4242;color:#fff}
+.DemoTaskDetail .step .arrow{width: 0.18rem;height:0.18rem;border-bottom:1px solid #e3e3e3;border-left:1px solid #e3e3e3;background-color: #fff;border-radius:0.04rem;position:absolute; left:11.3%;top:0.28rem;transform:rotate(45deg);margin-left:0.07rem}
+.DemoTaskDetail .step .step-content{background-color: #fff;width:88.7%;padding:0.12rem 0.2rem 0.36rem 0.2rem;box-sizing:border-box;border-radius:0.08rem;border:1px solid #e3e3e3;}
+.DemoTaskDetail .step-content h2{line-height:56px;color:#666;font-size:0.3rem;border-bottom:1px solid #e3e3e3}
+.DemoTaskDetail .step-detail{padding-top:0.34rem;text-align:center}
+.DemoTaskDetail .step-detail p{line-height:0.44rem;}
+.DemoTaskDetail .step-detail p strong{color:#fc4242}
+.DemoTaskDetail .step-detail p span{display:inline-block;background-color: #cdcdcd;width:1.24rem;height:1.24rem;border-radius:0.1rem}
+.DemoTaskDetail .step-detail .step-head{padding-top:0.32rem}
+.DemoTaskDetail .step-start{padding-top:0.52rem}
+.DemoTaskDetail .step-detail p a{display:inline-block;width: 4.1rem;line-height:0.8rem;background-color: #bbbbbb;font-size:0.3rem;color:#fff}
+.DemoTaskDetail .step.active .step-detail p a{background-color: #fc4242;border-radius:0.08rem;color:#fff}
+.DemoTaskDetail .last-div{ padding: 0.2rem  0.2rem 1rem ;}
+.DemoTaskDetail .last-div strong{ color:#fc4242}
+.DemoTaskDetail .step img{width:100%;}
+
+
